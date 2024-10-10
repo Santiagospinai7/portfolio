@@ -8,7 +8,7 @@
     "email": "santiagospidrobo15@gmail.com",
     "url": "",
     "summary": "I’m passionate about technology and the magic it brings to solving real-world challenges. I love leveraging tech to create solutions that drive business growth and streamline processes. My goal is to bridge the gap between technical innovation and business needs, making a meaningful impact through my work.",
-    "theme": "blue",
+    "theme": "cyberpunk",
     "location": {
       "address": "",
       "city": "Medellín",
@@ -89,6 +89,7 @@
       "startDate": "2023-07-01",
       "endDate": null,
       "summary": "Led projects and drove digital transformation initiatives for various clients.",
+      "role": "Lead developer on digital transformation projects, helping clients modernize their operations.",
       "highlights": [
         "Family business where I established a new business model, leading teams on projects for clients like Enka.",
         "Focused on digitalization and automation, creating custom solutions for client needs."
@@ -98,7 +99,7 @@
         "Integrated Shopify to build digital storefronts for e-commerce projects."
       ],
       "achievements": [
-        "Streamlined business processes through technology solutions, enhancing operational efficiency."
+        "Established a new business model within the family business and led teams on key projects, enhancing operational efficiency through custom technology solutions for clients like Enka."
       ],
       "skills": {
         "Django": "simple-icons:django",
@@ -124,6 +125,7 @@
       "startDate": "2023-04-01",
       "endDate": null,
       "summary": "Founded an app to help families manage wealth, assets, and inheritance planning.",
+      "role": "Co-founded a startup focused on family wealth management.",
       "highlights": [
         "Launched two app versions focusing on asset and wealth management.",
         "Adopted modern technologies, transitioning from a Node.js backend to a Next.js and Supabase stack."
@@ -133,7 +135,7 @@
         "Integrated with Supabase for scalable backend support."
       ],
       "achievements": [
-        "Delivered a comprehensive tool for family wealth management and inheritance planning."
+        "Successfully launched two versions of the app, delivering a comprehensive tool for wealth management and inheritance planning."
       ],
       "skills": {
         "HTML": "simple-icons:html5",
@@ -164,6 +166,7 @@
       "startDate": "2020-06-01",
       "endDate": "2023-04-01",
       "summary": "Developed AR/VR applications and interactive experiences for various platforms, focusing on immersive solutions.",
+      "role": "Developed AR/VR applications and web experiences, collaborating with French startups.",
       "highlights": [
         "Built immersive filters and games using Unity, Lens Studio, Scene Kit, and Spark AR.",
         "Collaborated with French startups to create engaging user experiences."
@@ -173,7 +176,7 @@
         "Utilized three.js and React for web development projects."
       ],
       "achievements": [
-        "Enhanced user engagement through innovative AR/VR solutions."
+        "Developed innovative AR/VR solutions for French startups, enhancing user engagement through immersive and interactive experiences."
       ],
       "skills": {
         "Unity": "mdi:unity",
