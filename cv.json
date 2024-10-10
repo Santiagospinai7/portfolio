@@ -2,42 +2,36 @@
   "analyticsCode": "",
   "pageLayout": "two-column",
   "basics": {
-    "name": "MiraHikari",
+    "name": "Santiago Ospina Idrobo",
     "label": "Senior Full Stack Developer",
-    "image": "/avatar.png",
-    "email": "mirahikari@gcxstudio.cn",
-    "url": "https://www.gcxstudio.cn",
-    "summary": "Born in 2010, I primarily work with TypeScript and JavaScript for full-stack development, and enjoy working with various technologies.",
-    "theme": "red",
+    "image": "/profile.png",
+    "email": "santiagospidrobo15@gmail.com",
+    "url": "",
+    "summary": "I’m passionate about technology and the magic it brings to solving real-world challenges. I love leveraging tech to create solutions that drive business growth and streamline processes. My goal is to bridge the gap between technical innovation and business needs, making a meaningful impact through my work.",
+    "theme": "blue",
     "location": {
-      "address": "Nanchang",
-      "city": "Jiangxi Province",
-      "countryCode": "CN",
-      "region": "China"
+      "address": "",
+      "city": "Medellín",
+      "countryCode": "",
+      "region": "Colombia"
     },
     "profiles": [
       {
-        "network": "Bilibili",
-        "icon": "ri:bilibili-line",
-        "username": "MiraHikari",
-        "url": "https://space.bilibili.com/480025691"
-      },
-      {
-        "network": "QQ",
-        "icon": "ri:qq-fill",
-        "username": "Gong_cx",
-        "url": "https://admin.qidian.qq.com/static_proxy/b2b-qq/wpa-link/index.html#/person?uin=3175992523"
-      },
-      {
         "network": "GitHub",
         "icon": "mdi:github",
-        "username": "MiraHikari",
-        "url": "https://github.com/MiraHikari"
+        "username": "Santiagospinai7",
+        "url": "https://github.com/Santiagospinai7"
+      },
+      {
+        "network": "LinkedIn",
+        "icon": "mdi:linkedin",
+        "username": "santiago-ospina-idrobo-733a24180",
+        "url": "https://www.linkedin.com/in/santiago-ospina-idrobo-733a24180/"
       }
     ],
     "beian": {
-      "mint": "赣ICP备2021005460号-1",
-      "police": "赣公网安备 36010302000349号"
+      "mint": "",
+      "police": ""
     }
   },
   "images": {
@@ -67,407 +61,310 @@
   },
   "education": [
     {
-      "institution": "Nanchang No.27 Middle School",
-      "url": "",
-      "area": "Regular Student",
+      "institution": "Eafit University",
+      "url": "https://www.eafit.edu.co/",
+      "area": "Computer Science",
+      "studyType": "",
+      "startDate": "2019-1-01",
+      "endDate": "2024-12-31"
+    },
+    {
+      "institution": "Le Wagon London",
+      "url": "https://www.lewagon.com/london",
+      "area": "Web Development",
       "studyType": "Full-time student",
-      "startDate": "2021-9-01",
-      "endDate": null
+      "startDate": "2023-1-01",
+      "endDate": "2023-5-01"
     }
   ],
   "certificates": [
-    {
-      "name": "Success has lived a day in the world.",
-      "date": "2010-04-14",
-      "url": "",
-      "issuer": "Myself"
-    },
-    {
-      "name": "TCCP - Senior Cloud Architecture Engineer",
-      "date": "2023-05-01",
-      "url": "",
-      "issuer": "Tencent Cloud"
-    }
   ],
   "work": [
     {
-      "name": "Sgguo Development Team",
+      "name": "ID Technology SaS",
       "position": "Full-stack Developer",
       "location_type": "Remote",
-      "location": "CN",
-      "url": "https://github.com/Sgguo-Development-Team",
-      "startDate": "2022-06-01",
+      "location": "CO",
+      "url": "https://www.idtechnologysas.com/",
+      "startDate": "2023-07-01",
       "endDate": null,
-      "summary": "Developing high-availability full-stack projects.",
+      "summary": "Led projects and drove digital transformation initiatives for various clients.",
       "highlights": [
-        "Enhanced internal workflow efficiency by 30%."
+        "Family business where I established a new business model, leading teams on projects for clients like Enka.",
+        "Focused on digitalization and automation, creating custom solutions for client needs."
       ],
       "responsibilities": [
-        "Developed and maintained backend services using Node.js and Golang."
+        "Developed and deployed web applications using Django, Flask, FastAPI, and Ruby on Rails.",
+        "Integrated Shopify to build digital storefronts for e-commerce projects."
       ],
       "achievements": [
-        "Implemented a cloud drive and verification code system."
+        "Streamlined business processes through technology solutions, enhancing operational efficiency."
       ],
       "skills": {
-        "PHP": "simple-icons:php",
-        "Node": "ri:nodejs-line",
-        "Golang": "simple-icons:go",
-        "Next.js": "ri:nextjs-fill",
+        "Django": "simple-icons:django",
         "React": "mdi:react",
-        "SQL": "simple-icons:mysql",
+        "Flask": "simple-icons:flask",
+        "FastAPI": "simple-icons:fastapi",
+        "Ruby on Rails": "mdi:language-ruby-on-rails",
+        "Shopify": "simple-icons:shopify",
         "Git": "mdi:git",
-        "GitHub": "mdi:github",
-        "NestJS": "simple-icons:nestjs",
-        "Vue": "mdi:vuejs"
+        "Astro": "simple-icons:astro",
+        "Vue": "mdi:vuejs",
+        "SQL Alchemy": "simple-icons:sqlalchemy",
+        "Tailwind": "simple-icons:tailwindcss",
+        "SQL server": "simple-icons:microsoftsqlserver"
       }
     },
     {
-      "name": "Riddle Town Team",
-      "position": "Full-stack Developer",
+      "name": "Inheritly",
+      "position": "Co-Founder & Full Stack Developer",
       "location_type": "Remote",
-      "location": "CN",
-      "url": "https://rth2.gcxstudio.cn",
-      "startDate": "2023-01-01",
-      "endDate": "2024-02-11",
-      "summary": "Led page design and account systems.",
+      "location": "UK",
+      "url": "https://www.inheritly.app/",
+      "startDate": "2023-04-01",
+      "endDate": null,
+      "summary": "Founded an app to help families manage wealth, assets, and inheritance planning.",
       "highlights": [
-        "Completed 95% of project content."
+        "Launched two app versions focusing on asset and wealth management.",
+        "Adopted modern technologies, transitioning from a Node.js backend to a Next.js and Supabase stack."
       ],
       "responsibilities": [
-        "Developed complete pages.",
-        "Integrated user-facing elements with server-side logic."
+        "Developed and maintained full-stack solutions using Node.js, React, and Next.js.",
+        "Integrated with Supabase for scalable backend support."
       ],
       "achievements": [
-        "Ensured smooth project execution."
+        "Delivered a comprehensive tool for family wealth management and inheritance planning."
       ],
       "skills": {
         "HTML": "simple-icons:html5",
         "CSS": "ri:css3-fill",
         "JavaScript": "simple-icons:javascript",
-        "TypeScript": "simple-icons:typescript",
         "Vite": "simple-icons:vite",
         "Node": "ri:nodejs-line",
         "Docker": "mdi:docker",
-        "WordPress": "ri:wordpress-fill",
-        "Astro": "simple-icons:astro",
-        "SQL": "simple-icons:mysql",
-        "Tailwind": "mdi:tailwind",
         "React": "mdi:react",
-        "GitHub": "mdi:github",
-        "Git": "mdi:git"
+        "Git": "mdi:git",
+
+        "Node.js": "simple-icons:nodedotjs",
+        "Express": "simple-icons:express",
+        "Next.js": "simple-icons:nextdotjs",
+        "Supabase": "simple-icons:supabase",
+        "MongoDB": "simple-icons:mongodb",
+        "Tailwind": "simple-icons:tailwindcss",
+        "Vercel": "simple-icons:vercel",
+        "MySQL": "simple-icons:mysql"
+      }
+    },
+    {
+      "name": "Makata Studio",
+      "position": "AR/VR Developer",
+      "location_type": "Hibrid",
+      "location": "CO",
+      "url": "https://www.makata.tv",
+      "startDate": "2020-06-01",
+      "endDate": "2023-04-01",
+      "summary": "Developed AR/VR applications and interactive experiences for various platforms, focusing on immersive solutions.",
+      "highlights": [
+        "Built immersive filters and games using Unity, Lens Studio, Scene Kit, and Spark AR.",
+        "Collaborated with French startups to create engaging user experiences."
+      ],
+      "responsibilities": [
+        "Developed interactive AR/VR applications and web experiences.",
+        "Utilized three.js and React for web development projects."
+      ],
+      "achievements": [
+        "Enhanced user engagement through innovative AR/VR solutions."
+      ],
+      "skills": {
+        "Unity": "mdi:unity",
+        "React": "mdi:react",
+        "Three.js": "simple-icons:threedotjs",
+        "Spark AR": "simple-icons:sparkar",
+        "Xcode": "simple-icons:xcode",
+        "JavaScript": "simple-icons:javascript",
+        "Git": "mdi:git",
+        "Vite": "simple-icons:vite",
+        "Node": "ri:nodejs-line",
+        "Docker": "mdi:docker",
+        "HTML": "simple-icons:html5",
+        "CSS": "ri:css3-fill"
       }
     }
   ],
   "skills": [
     {
-      "name": "HTML",
-      "icon": "simple-icons:html5",
+      "name": "Django",
+      "icon": "simple-icons:django",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "icon": "ri:css3-fill",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "icon": "simple-icons:javascript",
-      "level": "Expert",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "icon": "mdi:tailwind",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "icon": "simple-icons:typescript",
-      "level": "Expert",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "icon": "ri:nodejs-line",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
-    },
-    {
-      "name": "SQL",
-      "icon": "simple-icons:mysql",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
-    },
-    {
-      "name": "MongoDB",
-      "icon": "simple-icons:mongodb",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "File",
-        "Data Storage",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "icon": "mdi:git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "icon": "mdi:github",
-      "level": "Expert",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code",
-        "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "icon": "ri:nextjs-line",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
+      "keywords": ["Web Development", "Backend", "Python"]
     },
     {
       "name": "React",
       "icon": "mdi:react",
       "level": "Expert",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
     },
     {
-      "name": "Vue",
-      "icon": "mdi:vuejs",
+      "name": "Flask",
+      "icon": "simple-icons:flask",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
+      "keywords": ["Web Development", "Backend", "Python"]
     },
     {
-      "name": "Docker",
-      "icon": "mdi:docker",
+      "name": "FastAPI",
+      "icon": "simple-icons:fastapi",
       "level": "Intermediate",
-      "keywords": [
-        "Virtual Environments",
-        "Backend"
-      ]
+      "keywords": ["Web Development", "Backend", "Python"]
     },
     {
-      "name": "NestJS",
-      "icon": "simple-icons:nestjs",
+      "name": "Ruby on Rails",
+      "icon": "mdi:language-ruby-on-rails",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "IOC"
-      ]
+      "keywords": ["Web Development", "Backend", "Ruby"]
     },
     {
-      "name": "Vite",
-      "icon": "simple-icons:vite",
+      "name": "Shopify",
+      "icon": "simple-icons:shopify",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Build Tool"
-      ]
+      "keywords": ["E-commerce", "Web Development", "Frontend"]
     },
     {
-      "name": "WordPress",
-      "icon": "ri:wordpress-fill",
+      "name": "Git",
+      "icon": "mdi:git",
       "level": "Intermediate",
-      "keywords": [
-        "PHP",
-        "Fullstack",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "Golang",
-      "icon": "simple-icons:go",
-      "level": "Beginner",
-      "keywords": [
-        "Backend",
-        "Cloud Service"
-      ]
+      "keywords": ["Version Control", "Collaboration", "Source Code"]
     },
     {
       "name": "Astro",
       "icon": "simple-icons:astro",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "SSR",
-        "Static Generation"
-      ]
+      "keywords": ["Web Development", "Frontend", "SSR", "Static Generation"]
     },
     {
-      "name": "PHP",
-      "icon": "simple-icons:php",
+      "name": "AWS",
+      "icon": "simple-icons:amazonaws",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Fullstack"
-      ]
+      "keywords": ["Cloud Services", "Serverless", "Infrastructure"]
     },
     {
-      "name": "Nginx",
-      "icon": "simple-icons:nginx",
+      "name": "Azure DevOps",
+      "icon": "simple-icons:azuredevops",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Web Server"
-      ]
+      "keywords": ["CI/CD", "Collaboration", "DevOps"]
     },
     {
-      "name": "Tauri",
-      "icon": "simple-icons:tauri",
-      "level": "Beginner",
-      "keywords": [
-        "Desktop App",
-        "Rust",
-        "Webview"
-      ]
-    },
-    {
-      "name": "Rust",
-      "icon": "simple-icons:rust",
-      "level": "Beginner",
-      "keywords": [
-        "Desktop App",
-        "Webview"
-      ]
-    },
-    {
-      "name": "Socket.IO",
-      "icon": "simple-icons:socketdotio",
-      "level": "Beginner",
-      "keywords": [
-        "Realtime",
-        "Websocket"
-      ]
-    },
-    {
-      "name": "Electron",
-      "icon": "simple-icons:electron",
-      "level": "Beginner",
-      "keywords": [
-        "Desktop App",
-        "Webview"
-      ]
-    },
-    {
-      "name": "Shell",
-      "icon": "simple-icons:shell",
+      "name": "IIS",
+      "icon": "simple-icons:microsoft",
       "level": "Intermediate",
-      "keywords": [
-        "Scripting",
-        "Automation"
-      ]
+      "keywords": ["Web Server", "Hosting", "Microsoft"]
+    },
+    {
+      "name": "HTML",
+      "icon": "simple-icons:html5",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "icon": "ri:css3-fill",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "Responsive Design"]
+    },
+    {
+      "name": "JavaScript",
+      "icon": "simple-icons:javascript",
+      "level": "Expert",
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Node",
+      "icon": "ri:nodejs-line",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+    },
+    {
+      "name": "Unity",
+      "icon": "mdi:unity",
+      "level": "Intermediate",
+      "keywords": ["Game Development", "AR/VR", "Interactive Experiences"]
+    },
+    {
+      "name": "Three.js",
+      "icon": "simple-icons:threedotjs",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "3D Graphics", "Frontend"]
+    },
+    {
+      "name": "Spark AR",
+      "icon": "simple-icons:sparkar",
+      "level": "Intermediate",
+      "keywords": ["AR", "Interactive Experiences"]
+    },
+    {
+      "name": "Xcode",
+      "icon": "simple-icons:xcode",
+      "level": "Intermediate",
+      "keywords": ["Development Environment", "iOS Development", "Mac"]
+    },
+    {
+      "name": "Vite",
+      "icon": "simple-icons:vite",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "Build Tool"]
     },
     {
       "name": "Linux",
       "icon": "simple-icons:linux",
       "level": "Intermediate",
-      "keywords": [
-        "OS",
-        "Scripting",
-        "Automation"
-      ]
+      "keywords": ["Operating System", "Scripting", "Server Management"]
+    },
+    {
+      "name": "Docker",
+      "icon": "mdi:docker",
+      "level": "Intermediate",
+      "keywords": ["Containerization", "Virtual Environments", "DevOps"]
+    },
+    {
+      "name": "Next.js",
+      "icon": "simple-icons:nextdotjs",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
+    },
+    {
+      "name": "Supabase",
+      "icon": "simple-icons:supabase",
+      "level": "Intermediate",
+      "keywords": ["Database", "Backend", "Realtime"]
+    },
+    {
+      "name": "Tailwind",
+      "icon": "mdi:tailwind",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
+    },
+    {
+      "name": "MongoDB",
+      "icon": "simple-icons:mongodb",
+      "level": "Intermediate",
+      "keywords": ["Database", "NoSQL", "Backend"]
+    },
+    {
+      "name": "MySQL",
+      "icon": "simple-icons:mysql",
+      "level": "Intermediate",
+      "keywords": ["Database", "SQL", "Backend"]
     },
     {
       "name": "Vercel",
       "icon": "simple-icons:vercel",
       "level": "Intermediate",
-      "keywords": [
-        "Serverless",
-        "Static Site Hosting"
-      ]
+      "keywords": ["Hosting", "Serverless", "Frontend"]
     },
     {
-      "name": "Netlify",
-      "icon": "simple-icons:netlify",
+      "name": "SQL server",
+      "icon": "simple-icons:microsoftsqlserver",
       "level": "Intermediate",
-      "keywords": [
-        "Serverless",
-        "Static Site Hosting"
-      ]
-    },
-    {
-      "name": "Tencent Cloud",
-      "icon": "simple-icons:tencentqq",
-      "level": "Intermediate",
-      "keywords": [
-        "Cloud Service"
-      ]
-    },
-    {
-      "name": "Cloudflare Edge Functions",
-      "icon": "simple-icons:cloudflare",
-      "level": "Expert",
-      "keywords": [
-        "Serverless",
-        "Edge Computing"
-      ]
+      "keywords": ["Database", "SQL", "Backend"]
     }
   ],
   "languages": [
@@ -497,38 +394,69 @@
   ],
   "projects": [
     {
-      "name": "Cloudflare Vmail",
+      "name": "Manage Ev",
       "image": {
-        "url": "https://i0.hdslb.com/bfs/article/985e2caa8266dee4b9861ee6a341886d480025691.png@1e_1c.webp",
-        "position": "container",
-        "dark": "https://i0.hdslb.com/bfs/article/4d0bf8a784d22e54e3e61763c361c9ef480025691.png@100q_1e_1c.webp"
+        "url": "https://res.cloudinary.com/dbyp3pr3d/image/upload/v1728533239/manageEv_ymbomk.png",
+        "position": "container"
       },
       "isActive": true,
-      "description": "An open source temporary email tool, fully on Cloudflare. Inspired by oiov/vmail",
+      "description": "A comprehensive MVP app for electric vehicle owners to manage their cars, locate charging stations, and plan efficient routes.",
       "highlights": [
-        "🎯 Privacy-friendly, no registration required, out-of-the-box",
-        "✨ Support saving passwords and retrieving email addresses",
-        "😄 Support multiple domain name suffixes",
-        "🚀 100% open source, fully based on Cloudflare."
+        "⚡ Tracked multiple EVs per user, providing detailed insights on vehicle status.",
+        "📍 Displayed nearby charging stations and calculated range based on current battery levels.",
+        "🛣️ Recommended optimal routes to reduce range anxiety and maximize efficiency."
       ],
-      "url": "https://what-the-fuck.sbs",
-      "github": "https://github.com/MiraHikari/cloudflare-vmail"
+      "url": "https://youtu.be/EARjLZ8DEuc",
+      "github": "https://github.com/Santiagospinai7/manage_ev_front"
     },
     {
-      "name": "Riddle Town Hunt 2",
+      "name": "Ekored Project",
       "image": {
-        "url": "https://rth2-webstatic.gbclstudio.cn/wp-content/uploads/2024/02/1707656250-76b2b0d2c94824e89a2b8b2c7d1c6afe.png",
-        "position": "background"
+        "url": "https://res.cloudinary.com/dbyp3pr3d/image/upload/v1728533560/ekored_img_amw2iv.png",
+        "position": "container"
       },
       "isActive": true,
-      "description": "Public decryption activity in the form of Puzzle Hunt.",
+      "description": "A microservices-based system to streamline material handling, ensuring compliance with business rules and automating PDF transmissions to suppliers.",
       "highlights": [
-        "👌 More than 1000 people participated, system runs normally",
-        "😮‍ Use headless CMS: WordPress to storage and manage contents, dynamically render page",
-        "😊 Windows-like interface",
-        "💕 Based on Astro"
+        "🔄 Digitalized material reception, selection, and weighing processes.",
+        "📈 Improved data accuracy and accessibility across multiple devices.",
+        "📲 Enabled real-time access to operations data, accessible via web and mobile."
       ],
-      "url": "https://rth2.gcxstudio.cn/"
+      "url": "https://youtu.be/CCCrUSEATY4",
+      "github": ""
+    },
+    {
+      "name": "Inheritly",
+      "image": {
+        "url": "https://res.cloudinary.com/dbyp3pr3d/image/upload/v1728533358/Inheritly_twsttj.png",
+        "position": "container"
+      },
+      "isActive": true,
+      "description": "An innovative app designed to help families manage their wealth, assets, and inheritance plans seamlessly.",
+      "highlights": [
+        "💡 Developed two versions with evolving tech stacks to improve scalability and performance.",
+        "🔐 Secure handling of sensitive information to help families with inheritance planning.",
+        "🚀 Integrated with Supabase for real-time data and authentication."
+      ],
+      "url": "https://www.inheritly.app",
+      "github": "https://github.com/mxwtd/Inheritly"
+    },
+    {
+      "name": "Urban Studio",
+      "image": {
+        "url": "https://res.cloudinary.com/dbyp3pr3d/image/upload/v1728533624/urban_qzxnum.png",
+        "position": "container"
+      },
+      "isActive": true,
+      "description": "An immersive frontend experience designed to recreate the feel of a physical store, enhancing customer engagement.",
+      "highlights": [
+        "🎨 Built from scratch using Liquid and CSS to deliver a unique shopping experience.",
+        "🛍️ Created an interface that mimics the ambiance of a physical retail environment.",
+        "✨ Collaborated with a partner to bring creative elements and fluid navigation to life."
+      ],
+      "url": "https://www.urbanrock.com.co/pages/urban-lab",
+      "github": ""
     }
   ]
 }
+
