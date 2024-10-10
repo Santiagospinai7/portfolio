@@ -14,8 +14,7 @@ const { city, region, address } = location
       <h1>{name}</h1>
       <h2>{label}</h2>
       <div class='flex items-center gap-2 pt-2 text-sm text-skin-muted'>
-        <Icon class='print:hidden' name='mdi:world' width={20} height={20} />
-        {city}, {region}
+        <Icon class='print:hidden' name='mdi:world' width={20} height={20} /> {city}, {region}
       </div>
       <footer class='print'>
         {email}
