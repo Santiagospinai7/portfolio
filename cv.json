@@ -79,6 +79,22 @@
   ],
   "certificates": [
   ],
+  "summary": {
+    "overview": "Hey there! I’ve had the chance to explore and grow through some amazing projects, from building web applications to crafting immersive AR/VR experiences. With a strong focus on understanding challenges first, I then find the best technical solutions to address them. Here’s a quick snapshot of the achievements and experiences that have shaped my journey so far. Let’s dive into the possibilities we can create together!",
+    "subtitle": "Firstly, I will show you some achievements and experiences that have shaped my journey so far.",
+    "experiences": [
+      "Build web applications using Django, Flask, FastAPI, and Ruby on Rails.",
+      "Developed SDKs for Android, enhancing app functionality and integration.",      
+      "Created AR/VR applications and interactive experiences using Unity, Lens Studio, Scene Kit, and Spark AR.",
+      "Collaborate with French startups to create engaging user experiences.",
+      "Deployed applications on IIS and various PaaS platforms, optimizing for scalability and performance.",
+      "Built applications for Android tablets that launch local servers to retrieve device information for web application integration.",
+      "Developed and maintained full-stack solutions with Node.js, React, and Next.js.",
+      "Integrate Shopify to build digital storefronts for e-commerce projects.",
+      "Leveraged three.js and React to create engaging web projects.",
+      "Utilized Supabase for scalable backend support, optimizing database performance."
+    ]
+  },
   "work": [
     {
       "name": "ID Technology SaS",
@@ -103,17 +119,21 @@
       ],
       "skills": {
         "Django": "simple-icons:django",
+        "Ruby on Rails": "mdi:language-ruby-on-rails",
         "React": "mdi:react",
+        "Android Studio": "simple-icons:androidstudio",
         "Flask": "simple-icons:flask",
         "FastAPI": "simple-icons:fastapi",
-        "Ruby on Rails": "mdi:language-ruby-on-rails",
         "Shopify": "simple-icons:shopify",
         "Git": "mdi:git",
         "Astro": "simple-icons:astro",
         "Vue": "mdi:vuejs",
         "SQL Alchemy": "simple-icons:sqlalchemy",
         "Tailwind": "simple-icons:tailwindcss",
-        "SQL server": "simple-icons:microsoftsqlserver"
+        "SQL server": "simple-icons:microsoftsqlserver",
+        "AWS": "simple-icons:amazonaws",
+        "Azure DevOps": "simple-icons:azuredevops",
+        "IIS": "simple-icons:microsoft"
       }
     },
     {
@@ -212,6 +232,12 @@
       "icon": "simple-icons:flask",
       "level": "Intermediate",
       "keywords": ["Web Development", "Backend", "Python"]
+    },
+    {
+      "name": "Android Studio",
+      "icon": "simple-icons:androidstudio",
+      "level": "Intermediate",
+      "keywords": ["Development Environment", "Android Development", "Java"]
     },
     {
       "name": "FastAPI",

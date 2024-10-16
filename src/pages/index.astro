@@ -2,6 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 
 import About from "@/components/sections/About.astro";
+import Summary from "@/components/sections/Summary.astro";
 import Experience from "@/components/sections/Experience.astro";
 import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
@@ -36,6 +37,7 @@ enum PageLayout {
     <div
       class="slide-enter-content space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0"
     >
+      <Summary />
       <Experience className="print:col-span-3" />
       {
         (CV?.pageLayout === PageLayout.TwoColumn || !CV?.pageLayout) && (
