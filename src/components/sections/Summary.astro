@@ -26,14 +26,23 @@ import { Icon } from 'astro-icon/components'
 
 <script>
   const expandButton = document.querySelector('.expand-button');
-  expandButton.addEventListener('click', () => {
-    const container = expandButton.closest('.expand-container');
-    container.dataset.expanded = container.dataset.expanded === 'true' ? 'false' : 'true';
-    const hiddenItems = container.querySelectorAll('li[aria-hidden="true"]');
-    const expandText = expandButton.querySelector('.expand-text');
+
+  expandButton?.addEventListener('click', () => {
+    const container = expandButton.closest('.expand-container') as HTMLElement | null;
     
+    if (!container) return; // Safeguard if container is not found
+
+    // Toggle the expanded state
+    container.dataset.expanded = container.dataset.expanded === 'true' ? 'false' : 'true';
+
+    const hiddenItems = container.querySelectorAll<HTMLElement>('li[aria-hidden="true"]');
+    const expandText = expandButton.querySelector('.expand-text');
+
     hiddenItems.forEach(item => item.classList.toggle('hidden'));
-    expandText.innerHTML = container.dataset.expanded === 'true' ? 'Show less' : 'Show more';
+    
+    if (expandText) {
+      expandText.textContent = container.dataset.expanded === 'true' ? 'Show less' : 'Show more';
+    }
   });
 </script>
 
