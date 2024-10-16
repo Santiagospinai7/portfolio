@@ -11,14 +11,11 @@ import { Icon } from 'astro-icon/components'
     <h4>{summary.subtitle}</h4>
     <br>
     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2 expand-container" data-expanded="false">
-      {summary.experiences.slice(0, 2).map(item => (
-        <li>{item}</li>
+      {summary.experiences.map((item, index) => (
+        <li class={index >= 2 ? 'hidden' : ''} aria-hidden={index >= 2 ? 'true' : 'false'}>
+          {item}
+        </li>
       ))}
-      <div class="hidden" aria-hidden="true">
-        {summary.experiences.slice(2).map(item => (
-          <li>{item}</li>
-        ))}
-      </div>
       <button class="print:hidden group/more w-fit cursor-pointer items-center justify-center gap-1.5 text-xs underline text-skin-muted transition-all hover:text-skin-base flex expand-button">
         <span class="expand-text">Show more</span>
         <Icon name="ri:arrow-up-s-line" class="w-4 h-4 group-hover/more:translate-y-0.5 duration-200 ease-out group-data-[expanded=true]:rotate-180" width={24} height={24}></Icon>
@@ -26,6 +23,19 @@ import { Icon } from 'astro-icon/components'
     </ul>
   </ul>
 </Section>
+
+<script>
+  const expandButton = document.querySelector('.expand-button');
+  expandButton.addEventListener('click', () => {
+    const container = expandButton.closest('.expand-container');
+    container.dataset.expanded = container.dataset.expanded === 'true' ? 'false' : 'true';
+    const hiddenItems = container.querySelectorAll('li[aria-hidden="true"]');
+    const expandText = expandButton.querySelector('.expand-text');
+    
+    hiddenItems.forEach(item => item.classList.toggle('hidden'));
+    expandText.innerHTML = container.dataset.expanded === 'true' ? 'Show less' : 'Show more';
+  });
+</script>
 
 <style>
   li::marker {
