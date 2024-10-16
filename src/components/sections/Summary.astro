@@ -10,35 +10,29 @@ import { Icon } from 'astro-icon/components'
     <br>
     <h4>{summary.subtitle}</h4>
     <br>
-    <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
-      {
-        summary.experiences.map(item => (
+    <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2 expand-container" data-expanded="false">
+      {summary.experiences.slice(0, 2).map(item => (
+        <li>{item}</li>
+      ))}
+      <div class="hidden" aria-hidden="true">
+        {summary.experiences.slice(2).map(item => (
           <li>{item}</li>
-        ))
-      }
+        ))}
+      </div>
       <button class="print:hidden group/more w-fit cursor-pointer items-center justify-center gap-1.5 text-xs underline text-skin-muted transition-all hover:text-skin-base flex expand-button">
         <span class="expand-text">Show more</span>
         <Icon name="ri:arrow-up-s-line" class="w-4 h-4 group-hover/more:translate-y-0.5 duration-200 ease-out group-data-[expanded=true]:rotate-180" width={24} height={24}></Icon>
       </button>
     </ul>
-    </li>
   </ul>
 </Section>
-<!-- <script>
-  const expandButton = document.querySelectorAll('.expand-button');
-
-  expandButton.forEach(button => {
-    button.addEventListener('click', () => {
-      const container = button.closest<HTMLElement>('.expand-container')!;
-      container.dataset.expanded = container.dataset.expanded === 'true' ? 'false' : 'true';
-      const expandText = button.querySelector('.expand-text')!;
-      expandText.innerHTML = container.dataset.expanded === 'true' ? 'Show less' : 'Show more'
-    });
-  });
-</script> -->
 
 <style>
   li::marker {
     @apply text-skin-hue
+  }
+
+  .expand-container[data-expanded="true"] div[aria-hidden="true"] {
+    display: block !important;
   }
 </style>
