@@ -218,181 +218,157 @@
     {
       "name": "Django",
       "icon": "simple-icons:django",
-      "level": "Intermediate",
+      "level": "4.5",
       "keywords": ["Web Development", "Backend", "Python"]
     },
     {
       "name": "React",
       "icon": "mdi:react",
-      "level": "Expert",
+      "level": "4.5",
       "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
     },
     {
       "name": "Flask",
       "icon": "simple-icons:flask",
-      "level": "Intermediate",
+      "level": "4",
       "keywords": ["Web Development", "Backend", "Python"]
     },
     {
       "name": "Android Studio",
       "icon": "simple-icons:androidstudio",
-      "level": "Intermediate",
+      "level": "3",
       "keywords": ["Development Environment", "Android Development", "Java"]
     },
     {
       "name": "FastAPI",
       "icon": "simple-icons:fastapi",
-      "level": "Intermediate",
+      "level": "4",
       "keywords": ["Web Development", "Backend", "Python"]
     },
     {
       "name": "Ruby on Rails",
       "icon": "mdi:language-ruby-on-rails",
-      "level": "Intermediate",
+      "level": "4",
       "keywords": ["Web Development", "Backend", "Ruby"]
     },
     {
       "name": "Shopify",
       "icon": "simple-icons:shopify",
-      "level": "Intermediate",
+      "level": "5",
       "keywords": ["E-commerce", "Web Development", "Frontend"]
     },
     {
       "name": "Git",
       "icon": "mdi:git",
-      "level": "Intermediate",
+      "level": "4.5",
       "keywords": ["Version Control", "Collaboration", "Source Code"]
     },
     {
       "name": "Astro",
       "icon": "simple-icons:astro",
-      "level": "Intermediate",
+      "level": "4",
       "keywords": ["Web Development", "Frontend", "SSR", "Static Generation"]
     },
     {
       "name": "AWS",
       "icon": "simple-icons:amazonaws",
-      "level": "Intermediate",
+      "level": "3.5",
       "keywords": ["Cloud Services", "Serverless", "Infrastructure"]
     },
     {
       "name": "Azure DevOps",
       "icon": "simple-icons:azuredevops",
-      "level": "Intermediate",
+      "level": "3.5",
       "keywords": ["CI/CD", "Collaboration", "DevOps"]
     },
     {
       "name": "IIS",
       "icon": "simple-icons:microsoft",
-      "level": "Intermediate",
+      "level": "2",
       "keywords": ["Web Server", "Hosting", "Microsoft"]
-    },
-    {
-      "name": "HTML",
-      "icon": "simple-icons:html5",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend"]
-    },
-    {
-      "name": "CSS",
-      "icon": "ri:css3-fill",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "Responsive Design"]
     },
     {
       "name": "JavaScript",
       "icon": "simple-icons:javascript",
-      "level": "Expert",
+      "level": "5",
       "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "Node",
       "icon": "ri:nodejs-line",
-      "level": "Intermediate",
+      "level": "4.5",
       "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
     },
     {
       "name": "Unity",
       "icon": "mdi:unity",
-      "level": "Intermediate",
+      "level": "3.5",
       "keywords": ["Game Development", "AR/VR", "Interactive Experiences"]
     },
     {
       "name": "Three.js",
       "icon": "simple-icons:threedotjs",
-      "level": "Intermediate",
+      "level": "4",
       "keywords": ["Web Development", "3D Graphics", "Frontend"]
     },
     {
       "name": "Spark AR",
       "icon": "simple-icons:sparkar",
-      "level": "Intermediate",
+      "level": "5",
       "keywords": ["AR", "Interactive Experiences"]
     },
     {
       "name": "Xcode",
       "icon": "simple-icons:xcode",
-      "level": "Intermediate",
+      "level": "3",
       "keywords": ["Development Environment", "iOS Development", "Mac"]
-    },
-    {
-      "name": "Vite",
-      "icon": "simple-icons:vite",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "Build Tool"]
     },
     {
       "name": "Linux",
       "icon": "simple-icons:linux",
-      "level": "Intermediate",
+      "level": "4",
       "keywords": ["Operating System", "Scripting", "Server Management"]
     },
     {
       "name": "Docker",
       "icon": "mdi:docker",
-      "level": "Intermediate",
+      "level": "4",
       "keywords": ["Containerization", "Virtual Environments", "DevOps"]
     },
     {
       "name": "Next.js",
       "icon": "simple-icons:nextdotjs",
-      "level": "Intermediate",
+      "level": "4",
       "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
     },
     {
       "name": "Supabase",
       "icon": "simple-icons:supabase",
-      "level": "Intermediate",
+      "level": "4",
       "keywords": ["Database", "Backend", "Realtime"]
     },
     {
       "name": "Tailwind",
       "icon": "mdi:tailwind",
-      "level": "Intermediate",
+      "level": "4.5",
       "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
     },
     {
       "name": "MongoDB",
       "icon": "simple-icons:mongodb",
-      "level": "Intermediate",
+      "level": "4.5",
       "keywords": ["Database", "NoSQL", "Backend"]
     },
     {
       "name": "MySQL",
       "icon": "simple-icons:mysql",
-      "level": "Intermediate",
+      "level": "4.5",
       "keywords": ["Database", "SQL", "Backend"]
-    },
-    {
-      "name": "Vercel",
-      "icon": "simple-icons:vercel",
-      "level": "Intermediate",
-      "keywords": ["Hosting", "Serverless", "Frontend"]
     },
     {
       "name": "SQL server",
       "icon": "simple-icons:microsoftsqlserver",
-      "level": "Intermediate",
+      "level": "4.5",
       "keywords": ["Database", "SQL", "Backend"]
     }
   ],
