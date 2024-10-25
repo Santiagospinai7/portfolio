@@ -1,3 +1,10 @@
 {
-  "buildCommand": "astro build --config=./astro.config.vercel.mjs"
+  "buildCommand": "astro build --config=./astro.config.vercel.mjs",
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://www.sospinai.dev/$1",
+      "permanent": true
+    }
+  ]
 }
