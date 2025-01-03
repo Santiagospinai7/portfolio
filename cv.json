@@ -66,7 +66,7 @@
       "area": "Computer Science",
       "studyType": "",
       "startDate": "2019-1-01",
-      "endDate": "2024-12-31"
+      "endDate": "2024-12-11"
     },
     {
       "institution": "Le Wagon London",
@@ -401,7 +401,7 @@
     {
       "name": "Manage Ev",
       "image": {
-        "url": "https://res.cloudinary.com/dbyp3pr3d/image/upload/v1728533239/manageEv_ymbomk.png",
+        "url": "/Manage_ev.png",
         "position": "container"
       },
       "isActive": true,
@@ -417,7 +417,7 @@
     {
       "name": "Ekored",
       "image": {
-        "url": "https://res.cloudinary.com/dbyp3pr3d/image/upload/v1728533560/ekored_img_amw2iv.png",
+        "url": "/Ekored.png",
         "position": "container"
       },
       "isActive": true,
@@ -433,7 +433,7 @@
     {
       "name": "Inheritly",
       "image": {
-        "url": "https://res.cloudinary.com/dbyp3pr3d/image/upload/v1728533358/Inheritly_twsttj.png",
+        "url": "/Inheritly.png",
         "position": "container"
       },
       "isActive": true,
@@ -447,9 +447,9 @@
       "github": "https://github.com/mxwtd/Inheritly"
     },
     {
-      "name": "Urban Studio",
+      "name": "Urban Lab",
       "image": {
-        "url": "https://res.cloudinary.com/dbyp3pr3d/image/upload/v1728533624/urban_qzxnum.png",
+        "url": "/Urban.png",
         "position": "container"
       },
       "isActive": true,
