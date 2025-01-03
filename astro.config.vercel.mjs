@@ -1,9 +1,8 @@
-// @ts-check
-import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
-import astroIcon from 'astro-icon';
 import vercel from "@astrojs/vercel/static";
 import playformCompress from "@playform/compress";
+import astroIcon from 'astro-icon';
+import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
@@ -26,5 +25,10 @@ export default defineConfig({
   ],
   outDir: 'dist',
   output: 'static',
-  adapter: vercel()
+  adapter: vercel({
+    edge: false, // Set to true if you need Edge Runtime
+    prerender: {
+      default: true, // Enable static site generation
+    },
+  }),
 });

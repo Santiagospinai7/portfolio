@@ -1,0 +1,1 @@
+import{O as a}from"./index.esm.CohKk5fn.js";a.bind('[data-fancybox="gallery"]',{hideScrollbar:!1});

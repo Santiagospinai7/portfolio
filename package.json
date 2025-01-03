@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/tailwind": "^5.1.4",
+    "@astrojs/tailwind": "5.1.1",
     "@astrojs/vercel": "^8.0.1",
     "@fancyapps/ui": "^5.0.36",
     "@iconify-json/mdi": "^1.2.0",
@@ -32,8 +32,5 @@
     "prettier-plugin-astro": "^0.14.1",
     "rimraf": "^6.0.1",
     "wrangler": "^3.80.0"
-  },
-  "resolutions": {
-    "esbuild": "0.24.2"
   }
 }

@@ -25,16 +25,9 @@ import { Image } from "astro:assets";
                   <div
                     class:list={[
                       "absolute inset-0 transform bg-cover bg-center bg-no-repeat opacity-30 blur-sm grayscale transition-all duration-300",
-                      image.dark ? "dark:hidden" : "",
                     ]}
                     style={{ backgroundImage: `url(${image.url})` }}
                   />
-                  {image.dark && (
-                    <div
-                      class="absolute inset-0 hidden transform bg-cover bg-center bg-no-repeat opacity-30 blur-sm grayscale transition-all duration-300 dark:block"
-                      style={{ backgroundImage: `url(${image.dark})` }}
-                    />
-                  )}
                 </a>
               )}
               <div
@@ -91,22 +84,8 @@ import { Image } from "astro:assets";
                     height={1080}
                     class:list={[
                       "mt-3 max-w-full rounded-lg object-cover h-48",  // Set the height here
-                      image.dark ? "dark:hidden" : "",
                     ]}
                   />
-                  {image.dark && (
-                    <Image
-                      src={image.url}
-                      alt=""
-                      width={800}
-                      height={1080}
-                      class:list={[
-                        "mt-3 max-w-full rounded-lg",
-                        image.dark ? "dark:hidden" : "",
-                        "object-contain"  /* Add this to prevent cropping */
-                      ]}
-                    />
-                  )}
                 </a>
               )}
               {isBackgroundImage && (
